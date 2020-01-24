@@ -1,5 +1,10 @@
 :root {
-  --color-primary: olive;
+  --color-primary: #dac6bb;
+  --color-secondary: #cd967b;
+  --color-accent: #a5b4b4;
+  --color-accent-light: #efe5dd;
+  --color-accent-dark: #ab8b55;
+  --color-accent-option: #abb3a5;
 
   --font-primary: "futura-pt", sans-serif;
   --font-secondary: "adobe-caslon-pro", serif;
