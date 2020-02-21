@@ -1,11 +1,42 @@
 :root {
   --color-primary: #dac6bb;
-  --color-secondary: #cd967b;
-  --color-accent: #a5b4b4;
-  --color-accent-light: #efe5dd;
-  --color-accent-dark: #ab8b55;
-  --color-accent-option: #abb3a5;
+  --color-primary-dark: #CBB7AC;
+  --color-secondary: #a5b4b4;
+  --color-accent-coral: #cd967b;
+  --color-accent-green: #abb3a5;
+  --color-accent-yellow: #ab8b55;
+  --color-accent-beige: #efe5dd;
+  --color-accent-grey: #7e7e7e;
+  --color-accent-darkgrey: #454443;
 
-  --font-primary: "futura-pt", sans-serif;
-  --font-secondary: "adobe-caslon-pro", serif;
+  --font-primary: "adobe-caslon-pro", serif;
+  --font-secondary: "futura-pt", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-weight: normal;
+  letter-spacing: .05em;
+  color: var(--color-accent-darkgrey);
+}
+
+a {
+  color: var(--color-accent-darkgrey);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  transition: all .2s linear;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+p {
+  font-family: var(--font-primary);
 }

@@ -2,4 +2,20 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Maison"
+  description: |
+    Maison is a shop that delivers well designed, stylish and practical furniture and home decor. We are unified by our signature warm, modern aesthetic.
   font_url: "https://use.typekit.net/yiw2gul.css"
+  rationales:
+    typefaces.primary: |
+      Adobe Caslon Pro is a classic and timeless serif just like our products.
+      <br>It is to be used for all body copy.
+    typefaces.secondary: |
+      Futura PT is a modern sans-serif to go with the aesthetic of our shop.
+      <br>It is to be used for all headings, cards and buttons.
+    colors.primary: |
+      The primary colour is blush to keep the overall design neutral and easthetically pleasing just like our products.
+    colors.secondary: |
+      The secondary colour is a soft blue to stay within the neutral theme but also to add a small pop of color.
+    colors.accent: |
+      The accent colours compliment the primary and secondary colours while adding contrast to the website. We also added a light grey and beige that are to be used as background colors.

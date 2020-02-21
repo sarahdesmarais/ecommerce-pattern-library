@@ -1,0 +1,17 @@
+title: "Navigations"
+description: |
+  The navigations help the user move around the website and view product listings.
+
+patterns:
+  shop-nav:
+    title: "Shop | Page Numbers"
+    description: |
+      This navigation is at the bottom of the Shop page to view more product listings.
+  shop-filter:
+    title: "Shop | Side Filters"
+    description: |
+      This is a side navigation on the Shop page for users to browse between different categories. It is to be placed on the left side.
+  breadcrumb:
+    title: "Products | Breadcrumbs"
+    description: |
+      The breadcrumbs track the open page and how the user got there. It is to be placed at the top of the Products page and they can easily make their way back.

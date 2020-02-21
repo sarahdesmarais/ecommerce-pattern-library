@@ -1,0 +1,33 @@
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header1 {
+  background-color: var(--color-accent-beige);
+  align-items: right;
+}
+
+.header-name {
+  letter-spacing: .20em;
+  text-transform: uppercase;
+}
+
+.link-dark:hover {
+  color: var(--color-accent-yellow);
+}
+
+@media only screen and (min-width: 25em) {
+
+  .header-name {
+    margin-right: auto;
+  }
+
+  .header2 {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+ }

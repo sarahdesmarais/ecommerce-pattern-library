@@ -1,0 +1,30 @@
+title: "Forms"
+description: |
+  Our main form is used during checkout to collect information from our customers. We also have fields located on our product pages and to submit an email for our newsletter.
+
+patterns:
+  text-field:
+    title: "Text Field"
+    description: |
+      This is a basic form field and makes the majority of the forms. It collects information such as name, shipping address, etc.
+    width: 20em;
+  phone-field:
+    title: "Phone Number Field"
+    description: |
+      This is another basic form field. It collects the user's phone number.
+    width: 20em
+  email-field:
+    title: "Email Field"
+    description: |
+      This is another basic form field. It collects the user's email address.
+    width: 20em;
+  dropdown:
+    title: "Dropdown"
+    description: |
+      This field allows users to select an option from a predetermined list. For example, selecting the quantity, a color, province, etc.
+    width: 20em;
+  newsletter:
+    title: "Newsletter"
+    description: |
+      This field is for users to submit their email in order to receive our newsletter. It is located in the footer of the website.
+    width: 20em;

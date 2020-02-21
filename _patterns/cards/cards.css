@@ -1,0 +1,97 @@
+.grey {
+  color: var(--color-accent-grey);
+}
+
+.banner {
+  min-height: 16em;
+  max-height: 24em;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--color-accent-grey);
+}
+
+.banner-footer {
+  background-image: url("/images/banner-footer.png");
+  background-repeat: repeat;
+  background-size: 40em;
+  position: relative;
+  padding-top: 90%;
+}
+
+.banner-footer-content {
+  background-color: #fff;
+  max-width: 30em;
+  width: 80%;
+  position: absolute;
+}
+
+.banner-section {
+  background-image: url("/images/banner-footer.png");
+  background-repeat: repeat;
+  background-size: 40em;
+  position: relative;
+}
+
+.banner-section-content {
+  background-color: #fff;
+  max-width: 15em;
+  width: 80%;
+  position: absolute;
+}
+
+.border {
+  border: 1px solid #000;
+}
+
+p {
+  font-family: var(--font-primary);
+  font-style: italic;
+}
+
+.serif {
+  font-family: var(--font-primary)
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  transform: scale(1.1);
+}
+
+.hover-box-img {
+  transition:  all .4s ease;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-footer {
+    padding-top: 70%;
+  }
+
+}
+@media only screen and (min-width: 38em) {
+
+  .banner-footer {
+    padding-top: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-footer {
+    padding-top: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 390em) {
+
+  .banner-footer {
+    padding-top: 33%;
+  }
+
+}

@@ -1,0 +1,30 @@
+title: "Cards"
+description: |
+  The cards allow us to promote our products and highlight important pieces of information.
+
+patterns:
+  product-card:
+    title: "Product Card"
+    description: |
+      This card will redirect the user to its respective product page.
+    width: 15em
+  category-card:
+    title: "Category Card"
+    description: |
+      This card allows users to browse products per category.
+    width: 15em
+  banner:
+    title: "Home Banner"
+    description: |
+      This is the homepage banner.
+    width: 60em
+  banner-section:
+    title: "Sectional Banner"
+    description: |
+      This is a linked banner which seperates the sections on the homepage.
+    width: 60em
+  banner-footer:
+    title: "Footer Banner"
+    description: |
+      This is a footer banner which can be found at the bottom of each page of the website. It includes the newsletter sign-up option.
+    width: 60em

@@ -1,0 +1,10 @@
+.border-footer {
+  border-top: 1px solid var(--color-primary-dark);
+  border-bottom: 1px solid var(--color-primary-dark);
+}
+
+.small {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--color-accent-darkgrey);
+}
