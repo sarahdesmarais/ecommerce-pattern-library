@@ -16,7 +16,12 @@
 }
 
 .link-dark:hover {
-  color: var(--color-accent-yellow);
+  color: var(--color-accent-grey);
+}
+
+.current a {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 25em) {

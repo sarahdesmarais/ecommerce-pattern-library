@@ -1,0 +1,20 @@
+.carousel-items > div {
+  display: none;
+}
+
+.carousel-btn {
+  border: 2px solid var(--color-secondary);
+  border-radius: 50%;
+}
+
+#frame-1-control:checked ~ .carousel-inner #frame-1,
+#frame-2-control:checked ~ .carousel-inner #frame-2,
+#frame-3-control:checked ~ .carousel-inner #frame-3 {
+  display: block;
+}
+
+#frame-1-control:checked ~ .carousel-inner [for="frame-1-control"],
+#frame-2-control:checked ~ .carousel-inner [for="frame-2-control"],
+#frame-3-control:checked ~ .carousel-inner [for="frame-3-control"] {
+  background-color: var(--color-secondary);
+}

@@ -1,0 +1,8 @@
+title: "Carousel"
+description: |
+  The carousel is located on the product page. It includes various shots of the product.
+
+patterns:
+  carousel:
+    title: "Product Carousel"
+    width: 25em

@@ -19,3 +19,6 @@ patternbot:
       The secondary colour is a soft blue to stay within the neutral theme but also to add a small pop of color.
     colors.accent: |
       The accent colours compliment the primary and secondary colours while adding contrast to the website. We also added a light grey and beige that are to be used as background colors.
+  layouts:
+    default: |
+      The default layout should be used for almost every page. It includes the website's primary header and footer.

@@ -8,6 +8,13 @@ patterns:
     description: |
       This card will redirect the user to its respective product page.
     width: 15em
+    fields:
+      - name: heading
+        type: string
+        example: "Dining Room Set"
+      - name: text
+        type: string
+        example: "From 570$"
   category-card:
     title: "Category Card"
     description: |
