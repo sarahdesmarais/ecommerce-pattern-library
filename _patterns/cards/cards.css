@@ -11,8 +11,9 @@
 }
 
 .banner-footer {
-  background-image: url("/images/banner-footer.png");
-  background-repeat: repeat;
+  /* background-image: url("/images/banner-footer.png");
+  background-repeat: repeat; */
+  background-color: var(--color-primary);
   background-size: 40em;
   position: relative;
   padding-top: 90%;
@@ -26,10 +27,18 @@
 }
 
 .banner-section {
-  background-image: url("/images/banner-footer.png");
-  background-repeat: repeat;
+  background-color: var(--color-secondary);
   background-size: 40em;
   position: relative;
+}
+
+.shop {
+  background-color: var(--color-accent-beige);
+  text-transform: uppercase;
+}
+
+.shop p {
+  letter-spacing: .08em;
 }
 
 .banner-section-content {
@@ -45,7 +54,6 @@
 
 p {
   font-family: var(--font-primary);
-  font-style: italic;
 }
 
 .serif {

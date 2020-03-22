@@ -1,0 +1,29 @@
+- name: "Home Decor"
+  url: "/decor/"
+  items:
+    - "Candles"
+    - "Pillows + Throws"
+    - "Botanical"
+    - "Vases"
+    - "Baskets"
+    - "Frames"
+    - "Bowls + Trays"
+
+- name: "Furniture"
+  url: "/furniture/"
+  items:
+    - "Bedroom"
+    - "Living Room"
+    - "Dining Room"
+    - "Kitchen"
+    - "Office"
+    - "Outdoor"
+
+- name: "Rugs"
+  url: "/rugs/"
+  items:
+    - "Best Sellers"
+    - "Patterned"
+    - "Solid"
+    - "Runners"
+    - "Round"

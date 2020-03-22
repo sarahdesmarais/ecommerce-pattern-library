@@ -2,3 +2,7 @@ h3 {
   text-transform: uppercase;
   color: var(--color-secondary);
 }
+
+.category:hover {
+  color: var(--color-secondary);
+}

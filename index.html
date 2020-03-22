@@ -4,4 +4,32 @@ layout: default
 
 {% pattern cards/banner %}
 
-{% pattern cards/product-card heading="Dining Room Set" text="From 570$" %}
+<div class="grid gutter-1-4 wrapper push-2">
+  <div class="text-center unit [ xs-1 ]">
+    <h2>Shop By Category</h2>
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+    {% pattern cards/category-card title="decor" image="/categories/decor.jpg" url="decor" %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+    {% pattern cards/category-card title="furniture" image="/categories/furniture.jpg" url="/furniture" %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+    {% pattern cards/category-card title="rugs" image="/categories/rugs.jpg" url="/rugs" %}
+  </div>
+</div>
+
+{% pattern cards/banner-section %}
+
+<div class="grid gutter-1-4 wrapper push">
+  <div class="text-center unit [ xs-1 ]">
+    <h2>Featured Favourites</h2>
+  </div>
+  {% for product in site.products limit:3 %}
+    <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+      {% pattern cards/product-card data=product %}
+    </div>
+  {% endfor %}
+</div>
+
+{% pattern cards/banner-footer %}

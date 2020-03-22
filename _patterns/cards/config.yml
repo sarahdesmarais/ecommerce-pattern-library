@@ -9,21 +9,34 @@ patterns:
       This card will redirect the user to its respective product page.
     width: 15em
     fields:
-      - name: heading
-        type: string
-        example: "Dining Room Set"
-      - name: text
-        type: string
-        example: "From 570$"
+      - name: data
+        type: data
+        data:
+          source: "site.products[0]"
   category-card:
     title: "Category Card"
     description: |
       This card allows users to browse products per category.
     width: 15em
+    fields:
+      - name: title
+        type: string
+        example: "Decor"
+      - name: image
+        type: img
+        example: "/categories/decor.jpg"
+      - name: url
+        type: string
+        example: "/decor/"
   banner:
     title: "Home Banner"
     description: |
       This is the homepage banner.
+    width: 60em
+  shop-banner:
+    title: "Shop Banner"
+    description: |
+      This banner is located at the top of the shop page.
     width: 60em
   banner-section:
     title: "Sectional Banner"
