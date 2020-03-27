@@ -8,7 +8,5 @@ colors:
   - "Beige"
   - "Navy"
   - "White"
-shape: "Round"
-size: "Small"
 category: "decor"
 ---
