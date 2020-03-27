@@ -1,7 +1,7 @@
 <div class="label-inside relative push-1-2">
-  <input class="milli" id="option" list="option-list" required>
+  <input class="milli" id="option" list="{{include.id}}" required>
   <label class="pico" for="option">{{include.text}}</label>
-  <datalist id="option-list">
+  <datalist id="{{include.id}}">
     {% for opt in include.options %}
       <option value="{{opt}}">
     {% endfor %}
