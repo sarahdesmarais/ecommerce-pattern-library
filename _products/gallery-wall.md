@@ -7,6 +7,11 @@ price: $120
 colors:
   - "Black"
   - "White"
-shape: "Rectangle"
+quantity:
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
 category: "decor"
 ---

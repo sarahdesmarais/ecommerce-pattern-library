@@ -1,19 +1,9 @@
 <div class="label-inside relative push-1-2">
-  <input class="milli" id="province" list="province-list" required>
-  <label class="pico" for="province">Province</label>
-  <datalist id="province-list">
-    <option value="Alberta">
-    <option value="Ontario">
-    <option value="Québec">
-    <option value="Nova Scotia">
-    <option value="Manitoba">
-    <option value="British Columbia">
-    <option value="Prince Edward Island">
-    <option value="Saskatchewan">
-    <option value="Newfoundland and Labrador">
-    <option value="New Brunswick">
+  <input class="milli" id="option" list="option-list" required>
+  <label class="pico" for="option">{{include.text}}</label>
+  <datalist id="option-list">
+    {% for opt in include.options %}
+      <option value="{{opt}}">
+    {% endfor %}
   </datalist>
-  <p class="error-message pico island-1-4 push-0" id="province-error">
-    <span class="icon-label">Please select your province</span>
-  </p>
 </div>
