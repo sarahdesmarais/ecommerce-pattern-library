@@ -23,6 +23,13 @@ patterns:
     description: |
       This field allows users to select an option from a predetermined list. For example, selecting the quantity, a color, province, etc.
     width: 20em;
+    fields:
+      - name: text
+        type: string
+        example: "Quantity"
+      - name: option
+        type: string
+        example: "1"
   newsletter:
     title: "Newsletter"
     description: |

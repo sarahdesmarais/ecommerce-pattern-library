@@ -1,7 +1,21 @@
 ---
 layout: default
 ---
+{% pattern navigations/breadcrumb %}
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+<div class="grid gutter-1-2 wrapper">
+  <div class="unit [ xs-1 s-1 m-1-2 ]">
+    {% pattern carousel/carousel %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-2 ] gutter">
+    <h2 class="push-0 giga">{{page.name}}</h2>
+    <p class="kilo">{{page.price}}</p>
+    {% pattern forms/dropdown %}
+    {% pattern forms/dropdown %}
+    {% pattern buttons/basic url="/checkout/" text="Add to cart" %}
+    <h4 class="pad-t-2 push-0">Details</h4>
+    <p>{{page.description}}</p>
+  </div>
+</div>
+
+<!-- <img src="{{page.image}}" alt=""> -->
