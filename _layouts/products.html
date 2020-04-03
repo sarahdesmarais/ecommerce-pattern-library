@@ -13,7 +13,7 @@ layout: default
     <p class="milli">{{page.description}}</p>
     {% pattern forms/dropdown text="colour" options=page.colors id="colors" %}
     {% pattern forms/dropdown text="quantity" options=page.quantity id="quantity" %}
-    {% pattern buttons/basic url="/checkout/" text="Add to cart" %}
+    {% pattern buttons/basic url="/checkout/" text="Add to bag" %}
   </div>
 </div>
 
@@ -27,3 +27,5 @@ layout: default
     </div>
   {% endfor %}
 </div>
+
+{% pattern cards/banner-footer %}

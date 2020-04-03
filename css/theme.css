@@ -40,3 +40,11 @@ mark {
 p {
   font-family: var(--font-primary);
 }
+
+.pad-r {
+  padding-right: 1.3rem;;
+}
+
+.pad-r-1-2 {
+  padding-right: .65rem;
+}

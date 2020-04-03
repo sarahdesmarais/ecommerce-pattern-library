@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="wrapper pad-t push-1-2">
+<div class="wrapper pad-t push-1-2 gutter-1-2">
   <h2>Checkout</h2>
   <ol class="list-group-inline nano">
     <li>
@@ -19,11 +19,11 @@ layout: default
   </ol>
 </div>
 
-<div class="grid wrapper push-2">
+<div class="grid wrapper gutter-1-2 push-2">
   <div class="unit [ xs-1 s-1 m-1-2 ]">
     <div class="grid">
       <h3 class="micro unit [ xs-1 ] push-1-2">Contact Information</h3>
-      <div class="unit [ xs-1 s-1 m-1-2 ] push-1-2">
+      <div class="unit [ xs-1 s-1 m-1-2 ] push-1-2 pad-r-1-2">
         {% pattern forms/text-field text="First name" %}
       </div>
       <div class="unit [ xs-1 s-1 m-1-2 ] push-1-2">
@@ -46,47 +46,53 @@ layout: default
       <div class="unit [ xs-1 ] push-1-2">
         {% pattern forms/text-field text="City" %}
       </div>
-      <div class="unit [ xs-1 s-1 m-1-3 ] push-1-2">
+      <div class="unit [ xs-1 s-1 m-1-3 ] push-1-2 pad-r-1-2">
         {% pattern forms/text-field text="Province" %}
       </div>
-      <div class="unit [ xs-1 s-1 m-1-3 ] push-1-2">
+      <div class="unit [ xs-1 s-1 m-1-3 ] push-1-2 pad-r-1-2">
         {% pattern forms/text-field text="Country" %}
       </div>
       <div class="unit [ xs-1 s-1 m-1-3 ] push-2">
         {% pattern forms/text-field text="Postal Code" %}
       </div>
-      <div class="unit [ xs-1 ] push">
-        {% pattern buttons/basic url="/checkout/" text="Continue to payment" %}
-      </div>
     </div>
   </div>
 
-  <div class="unit [ xs-1 s-1 m-1-2 ] gutter push-2">
+  <div class="unit [ xs-1 s-1 m-1-2 ] push-2 gutter">
     <h3 class="micro unit [ xs-1 ] push-1-2">Summary</h3>
     <div class="grid">
+      <div class="unit [ xs-1 s-1 m-1-3 ] push pad-r">
+        <img class="img-flex" src="../images/products/rack.jpg" alt="">
+      </div>
+      <div class="unit [ xs-1 s-1 m-2-3 ] push-1-2">
+        <h6 class="push-0">Clothes Rack</h6>
+        <h6 class="nano">70$</h6>
+      </div>
       <div class="unit [ xs-1 ] push">
         {% pattern forms/newsletter text="Gift Card" button="Apply" %}
       </div>
     </div>
     <div class="grid">
-        <div class="unit xs-1-2 s-1-2">
-          <h6 class="push-0 milli">Subtotal</h6>
-          <h6 class="push-1-4 milli">Shipping</h6>
-          <div class="push-0">
-            <hr>
-          </div>
-          <h6 class="push milli">Total</h6>
+      <div class="unit xs-1-2 s-1-2">
+        <h6 class="push-0 milli">Subtotal</h6>
+        <h6 class="push-1-4 milli">Shipping</h6>
+        <div class="push-0">
+          <hr>
         </div>
-        <div class="unit xs-1-2 s-1-2 text-right">
-          <h6 class="push-0 milli">$80.00</h6>
-          <h6 class="push-1-4 milli">$20.00</h6>
-          <div class="push-0">
-            <hr>
-          </div>
-          <h6 class="push milli">$100.00</h6>
-        </div>
+        <h6 class="push milli">Total</h6>
       </div>
+      <div class="unit xs-1-2 s-1-2 text-right">
+        <h6 class="push-0 milli">$70.00</h6>
+        <h6 class="push-1-4 milli">$20.00</h6>
+        <div class="push-0">
+          <hr>
+        </div>
+        <h6 class="push milli">$90.00</h6>
+      </div>
+    </div>
+    <div class="unit [ xs-1 ] push">
+      {% pattern buttons/basic url="/checkout/" text="Continue to payment" %}
+    </div>
   </div>
-</div>
 
-{% pattern cards/banner-footer %}
+</div>
