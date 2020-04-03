@@ -1,7 +1,7 @@
 ---
 name: "Carter Vase"
 description: |
-  A small vase for flowers.
+  The carter vase features a unique coating and is ideal for displaying faux stems. It makes a stylish statement.
 image: "/images/products/carter-vase.jpg"
 price: $30
 colors:

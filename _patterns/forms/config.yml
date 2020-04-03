@@ -8,6 +8,10 @@ patterns:
     description: |
       This is a basic form field and makes the majority of the forms. It collects information such as name, shipping address, etc.
     width: 20em;
+    fields:
+      - name: text
+        type: string
+        example: "First name"
   phone-field:
     title: "Phone Number Field"
     description: |

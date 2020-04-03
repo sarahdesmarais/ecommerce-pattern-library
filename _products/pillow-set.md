@@ -1,7 +1,7 @@
 ---
 name: "Pillow Set"
 description: |
-  Set of 3 pillows.
+  Our pillow set utilizes rich textures to add depth and warmth to a neutral color palette. Crafted from wool and cotton, these are high-quality pillows that come in a set of 3.
 image: "/images/products/pillow.jpg"
 price: $120
 colors:

@@ -1,7 +1,7 @@
 ---
 name: "Stella Round Chair"
 description: |
-  Round chair.
+  The Stella Round Chair has dense padding and soft rounded edges. The sculpted form is supported by wood legs.
 image: "/images/products/chair.jpg"
 price: $250
 colors:

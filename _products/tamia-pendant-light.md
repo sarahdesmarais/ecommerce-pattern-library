@@ -1,7 +1,7 @@
 ---
 name: "Tamia Ceiling Pendant"
 description: |
-  Ceiling light pendant.
+  Inspired by natural materials, this pendant blends the rich textures of wood with the modern silhouette of an oversized lantern.
 image: "/images/products/lighting.jpg"
 price: $110
 colors:

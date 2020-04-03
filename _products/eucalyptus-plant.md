@@ -1,7 +1,7 @@
 ---
 name: "Eucalyptus Plant"
 description: |
-  Fresh eucalyptus plant.
+  Eucalyptus branches are known for their distinctive, rounded leaves and silver, green foliage. Our lifelike Eucalyptus plant brings that subtle color and texture to your space without any maintenance required.
 image: "/images/products/plant.jpg"
 price: $35
 colors:

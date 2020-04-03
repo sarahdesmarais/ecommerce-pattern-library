@@ -1,7 +1,7 @@
 ---
 name: "Malibu Dish"
 description: |
-  Decorative dish.
+  Our Malibu Dish will makes a nice addition to your home and will bring a fresh look to your decor.
 image: "/images/products/dish.jpg"
 price: $40
 colors:

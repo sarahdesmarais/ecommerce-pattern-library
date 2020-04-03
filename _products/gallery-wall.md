@@ -1,7 +1,7 @@
 ---
 name: "Gallery Wall"
 description: |
-  A gallery wall which includes 5 frames.
+  Add a meaningful statement to any room of the house with our framed gallery wall which includes 5 frames of different sizes.
 image: "/images/products/frame-gallery.jpg"
 price: $120
 colors:

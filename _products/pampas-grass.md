@@ -1,7 +1,7 @@
 ---
-name: "Pampass Grass"
+name: "Pampas Grass"
 description: |
-  Pampass Grass
+  Our natural Pampas Grass collection adds height, natural flair and eco-friendly elegance to any room. Set includes 3 stems.
 image: "/images/products/pampass.jpg"
 price: $80
 colors:

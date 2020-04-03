@@ -1,7 +1,7 @@
 ---
-name: "Amia Accent Stool"
+name: "Amia Wood Stool"
 description: |
-  Wood accent stool.
+  Help your kids reach the sink or countertop with our wood stool. This sturdy stool is attractive and neutral, and can easily blend with any style.
 image: "/images/products/bench.jpg"
 price: $95
 colors:
