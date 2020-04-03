@@ -39,3 +39,10 @@ patterns:
     description: |
       This field is for users to submit their email in order to receive our newsletter. It is located in the footer of the website.
     width: 20em;
+    fields:
+      - name: text
+        type: string
+        example: "Newsletter"
+      - name: button
+        type: string
+        example: "Submit"

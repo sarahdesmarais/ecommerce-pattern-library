@@ -2,10 +2,24 @@
 layout: default
 ---
 
-<div class="grid gutter-1-2 wrapper push-2 pad-t">
-  <div class="unit [ xs-1 ]">
-    <h2>Checkout</h2>
-  </div>
+<div class="wrapper pad-t push-1-2">
+  <h2>Checkout</h2>
+  <ol class="list-group-inline nano">
+    <li>
+      <a class="push-r-1-2 valign-middle" href="#">Bag</a>
+      <i class="icon i-1-2 push-r-1-2 valign-middle"><svg><use xlink:href="/images/icons.svg#arrow"/></svg></i>
+    </li>
+    <li>
+      <a class="push-r-1-2 valign-middle" href="#">Shipping</a>
+      <i class="icon i-1-2 push-r-1-2 valign-middle"><svg><use xlink:href="/images/icons.svg#arrow"/></svg></i>
+    </li>
+    <li>
+      <a class="push-r-1-2 valign-middle" href="#">Payment</a>
+    </li>
+  </ol>
+</div>
+
+<div class="grid wrapper push-2">
   <div class="unit [ xs-1 s-1 m-1-2 ]">
     <div class="grid">
       <h3 class="micro unit [ xs-1 ] push-1-2">Contact Information</h3>
@@ -38,16 +52,40 @@ layout: default
       <div class="unit [ xs-1 s-1 m-1-3 ] push-1-2">
         {% pattern forms/text-field text="Country" %}
       </div>
-      <div class="unit [ xs-1 s-1 m-1-3 ] push-1-2">
+      <div class="unit [ xs-1 s-1 m-1-3 ] push-2">
         {% pattern forms/text-field text="Postal Code" %}
       </div>
-
-      <a href="#"><i class="icon i-1-2 push-l-1-2 valign-middle"><svg><use xlink:href="/images/icons.svg#arrow"/></svg></i>Return to bag</a>
-      {% pattern buttons/basic url="/checkout/" text="Continue to payment" %}
+      <div class="unit [ xs-1 ] push">
+        {% pattern buttons/basic url="/checkout/" text="Continue to payment" %}
+      </div>
     </div>
   </div>
+
   <div class="unit [ xs-1 s-1 m-1-2 ] gutter push-2">
-    <h2 class="push-0 giga">Section 2</h2>
+    <h3 class="micro unit [ xs-1 ] push-1-2">Summary</h3>
+    <div class="grid">
+      <div class="unit [ xs-1 ] push">
+        {% pattern forms/newsletter text="Gift Card" button="Apply" %}
+      </div>
+    </div>
+    <div class="grid">
+        <div class="unit xs-1-2 s-1-2">
+          <h6 class="push-0 milli">Subtotal</h6>
+          <h6 class="push-1-4 milli">Shipping</h6>
+          <div class="push-0">
+            <hr>
+          </div>
+          <h6 class="push milli">Total</h6>
+        </div>
+        <div class="unit xs-1-2 s-1-2 text-right">
+          <h6 class="push-0 milli">$80.00</h6>
+          <h6 class="push-1-4 milli">$20.00</h6>
+          <div class="push-0">
+            <hr>
+          </div>
+          <h6 class="push milli">$100.00</h6>
+        </div>
+      </div>
   </div>
 </div>
 
