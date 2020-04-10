@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   letter-spacing: .05em;
   color: var(--color-accent-darkgrey);
+  text-transform: uppercase;
 }
 
 a {
