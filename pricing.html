@@ -1,0 +1,54 @@
+---
+layout: default
+---
+{% pattern cards/shop-banner header="April Offers" text="Shop our bulk promotions" %}
+{% pattern cards/banner %}
+<div class="grid wrapper gutter-1-2">
+  <div class="unit [ xs-1 s-1 m-1-2 ] island-1-2">
+    {% pattern cards/category-card title="Buy Now" image="/products/dish.jpg" url="/checkout/" %}
+  </div>
+  <div class="unit [ xs-1 s-1 m-1-2 ] island-1-2 push-2">
+    {% pattern cards/category-card title="Buy Now" image="/products/plant.jpg" url="/checkout/" %}
+  </div>
+  <div class="unit [ xs-1 ]">
+    <h3 class="push-1-2">Bulk Promotions</h3>
+    <table class="push-2">
+      <thead>
+        <tr>
+          <th scope="col"><h5 class="push-0">Quantity</h5></th>
+          <th scope="col"><h5 class="push-0">Price per Item</h5></th>
+          <th scope="col"><h5 class="push-0">Discount</h5></th>
+        </tr>
+      </thead>
+      <tbody class="micro">
+        <tr>
+          <td><h6 class="push-0">1-10</h6></td>
+          <td><h6 class="push-1-2">$50.49</h6></td>
+          <td><h6 class="push-1-2">5%</h6></td>
+        </tr>
+        <tr>
+          <td><h6 class="push-0">11-49</h6></td>
+          <td><h6 class="push-1-2">$45.49</h6></td>
+          <td><h6 class="push-1-2">10%</h6></td>
+        </tr>
+        <tr>
+          <td><h6 class="push-0">50-100</h6></td>
+          <td><h6 class="push-1-2">$40.99</h6></td>
+          <td><h6 class="push-1-2">15%</h6></td>
+        </tr>
+        <tr>
+          <td><h6 class="push-0">100-500</h6></td>
+          <td><h6 class="push-1-2">$35.25</h6></td>
+          <td><h6 class="push-1-2">20%</h6></td>
+        </tr>
+        <tr>
+          <td><h6 class="push-0">500+</h6></td>
+          <td><h6 class="push-1-2">$29.99</h6></td>
+          <td><h6 class="push-1-2">25%</h6></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+{% pattern cards/banner-footer %}

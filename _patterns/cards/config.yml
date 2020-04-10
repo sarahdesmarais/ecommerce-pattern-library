@@ -38,6 +38,13 @@ patterns:
     description: |
       This banner is located at the top of the shop page.
     width: 60em
+    fields:
+      - name: header
+        type: string
+        example: "Shop"
+      - name: text
+        type: string
+        example: "Our signature products"
   banner-section:
     title: "Sectional Banner"
     description: |
